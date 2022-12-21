@@ -4,30 +4,13 @@
     box-sizing: border-box;
 }
 
-nav ul{
-    text-align: right;
-    margin-right: 5%;
-    
+.navbar-brand img{
+    height: 200px;
 }
-
-.imagen1 img{
-    width: 250px;
-    height: 250px;
-}
-
-.botonNav{
-    padding: 30px;
-    padding-right: 100px;
-    background-color:#BF9004;
-    font-family: 'Contrail One', cursive;
-    display: inline-block;
-}
-
-.colorLetra{
-    color: #fff;
+.navbar-nav a{
     font-size: 25px;
+    font-family: 'Contrail One', cursive;
 }
-
 .colorTitulo{
     padding-top: 200px;
     color: black;
