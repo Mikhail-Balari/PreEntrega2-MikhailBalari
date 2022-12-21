@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /****** NAVBAR ******/
+
 .collapse{
     background-color: #BF9004;
 }
@@ -30,15 +32,20 @@ div > img{
 
 /****** MAIN ******/
 
+.Titulo{
+    margin-inline: 500px;
+    margin-bottom: 40px;
+}
+
 .colorTitulo{
-    padding-top: 200px;
-    color: black;
+    padding: 10px;
+    color: white;
     text-align: center;
-    margin: 10px;
+    margin-top: 50px;
     font-style: italic;
-    font-weight: 800;
     font-size: 45px;
     font-family: 'Contrail One', cursive;
+    background-color: #BF9004;
 }
 
 .contenedorParrafos{
@@ -49,85 +56,24 @@ div > img{
     font-family: 'Contrail One', cursive;
 }  
 
-.check1{
-    width: 40px;
-    height: 40px;
-    position:relative;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-left: 350px;
-    margin-right: 0px;
-}
 
-.check__label1{
-    font-family: 'Contrail One', cursive;
-    position:relative;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-left: 410px;
-    margin-right: 0px;
-}
 
-.check2{
-    width: 40px;
-    height: 40px;
-    position:relative;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 350px;
-    margin-right: 0px;
-}
-
-.check__label2{
-    font-family: 'Contrail One', cursive;
-}
-
-.check3{
-    width: 40px;
-    height: 40px;
-    position:relative;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-left: 1000px;
-    margin-right: 0px;
-}
-
-.check__label3{
-    font-family: 'Contrail One', cursive;
-}
-
-.check4{
-    width: 40px;
-    height: 40px;
-    position:relative;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-left: 1000px;
-    margin-right: 0px;
-}
-
-.check__label4{
-    font-family: 'Contrail One', cursive;
-}
- 
-.imagen_pie{
-    background-image: url(../img/rutina.jpg);
-    width: 1509px;
-    height: 600px;
-    background-size: cover;
-    padding: 0%;
-    display: inline;
-    
-}
 /***** FOOTER ******/
+
 .pie{
-    background-color:#BF9004;
-    padding: 10px;
+    background-color:black;
     line-height: 10px;
+    padding: 5px;
+}
+
+div > h3 > i {
+    padding-left: 10px;
 }
 
 .pieText{
     text-align: center;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
+    color:#BF9004;
+    font-family: 'Contrail One', cursive;
+    font-size: 20px;
+    padding-top: 7px;
 }
