@@ -3,14 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+/****** NAVBAR ******/
+.collapse{
+    background-color: #BF9004;
+}
 
 .navbar-brand img{
     height: 200px;
 }
+
 .navbar-nav a{
     font-size: 25px;
     font-family: 'Contrail One', cursive;
+    color: white;
 }
+
+.nav-link:hover{
+    color:black;
+}
+
+/****** HEADER ******/
+
+div > img{
+    height: 700px;
+}
+
+/****** MAIN ******/
+
 .colorTitulo{
     padding-top: 200px;
     color: black;
@@ -100,7 +119,7 @@
     display: inline;
     
 }
-
+/***** FOOTER ******/
 .pie{
     background-color:#BF9004;
     padding: 10px;
