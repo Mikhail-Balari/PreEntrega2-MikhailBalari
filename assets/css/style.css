@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    text-align: right;
+    margin-right: 5%;
+    
+}
+
+.imagen1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.botonNav{
+    padding: 30px;
+    padding-right: 100px;
+    background-color:#BF9004;
+    font-family: 'Contrail One', cursive;
+    display: inline-block;
+}
+
+.colorLetra{
+    color: #fff;
+    font-size: 25px;
+}
+
+.colorTitulo{
+    padding-top: 200px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: 'Contrail One', cursive;
+}
+
+.contenedorParrafos{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 200px;
+    font-family: 'Contrail One', cursive;
+}  
+
+.check1{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 0px;
+}
+
+.check__label1{
+    font-family: 'Contrail One', cursive;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 410px;
+    margin-right: 0px;
+}
+
+.check2{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    margin-right: 0px;
+}
+
+.check__label2{
+    font-family: 'Contrail One', cursive;
+}
+
+.check3{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 1000px;
+    margin-right: 0px;
+}
+
+.check__label3{
+    font-family: 'Contrail One', cursive;
+}
+
+.check4{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 1000px;
+    margin-right: 0px;
+}
+
+.check__label4{
+    font-family: 'Contrail One', cursive;
+}
+ 
+.imagen_pie{
+    background-image: url(../img/rutina.jpg);
+    width: 1509px;
+    height: 600px;
+    background-size: cover;
+    padding: 0%;
+    display: inline;
+    
+}
+
+.pie{
+    background-color:#BF9004;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.pieText{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
