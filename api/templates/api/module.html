@@ -1,0 +1,25 @@
+<h1>
+    {{module.name}}
+</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Pin number</th>
+            <th>Is used</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for pin in module.pins.all %}
+            <tr>
+                <form method="post" action="{% url 'module-detail' module.id %}">
+                {% csrf_token %}
+                    <input type="hidden" name="id" value="{{pin.id}}" />
+                    <input type="hidden" name="is_used" value="{% if pin.is_used %}false{% else %}true{% endif %}" />
+                    <td>{{pin.pin_number}}</td>
+                    <td>{{pin.is_used}}</td>
+                    <td><button type="submit">Toggle</button></td>
+                </form>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

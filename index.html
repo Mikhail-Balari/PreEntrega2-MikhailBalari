@@ -16,99 +16,116 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<!--NAV-->
+
+<body>
+    <!--NAV-->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo final.png" alt=""></a>
+            <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo final.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    <a class="nav-link" href="./Pages/efa.html">EFA</a>
-                    <a class="nav-link" href="./Pages/kef.html">KEF</a>
-                    <a class="nav-link" href="./Pages/sobre-mi.html">Sobre Mí</a>
-                    <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="../Pages/efa.html">EFA</a>
+                    <a class="nav-link" href="../Pages/kef.html">KEF</a>
+                    <a class="nav-link" href="../Pages/sobre-mi.html">Sobre Mí</a>
+                    <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
                 </div>
             </div>
         </div>
-       
     </nav>
-<!--HEADER-->
+    <!--HEADER-->
     <header>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-container">
+          <div class="carousel-background"></div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-inner">
-              <div class="carousel-item active img-fluid">
-                <img src="./assets/img/sport-lifestyle-fitness-male-training (1).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-item active">
+                <img src="./assets/img/sport-lifestyle-fitness-male-training (1).jpg" class="d-block img-thumbnail w-50 mx-auto" alt="...">
               </div>
-              <div class="carousel-item img-fluid">
-                <img src="./assets/img/patient-doing-physical-rehabilitation-helped-by-therapists (1).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-item">
+                <img src="./assets/img/patient-doing-physical-rehabilitation-helped-by-therapists (1).jpg" class="d-block img-thumbnail w-50 mx-auto" alt="...">
               </div>
-              <div class="carousel-item img-fluid">
-                <img src="./assets/img/fitness-training-with-kettlebells (1).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-item">
+                <img src="./assets/img/fitness-training-with-kettlebells (1).jpg" class="d-block img-thumbnail w-50 mx-auto" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev justify-content-start" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next justify-content-end" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          </div>
         </div>
     </header>
-<!--MAIN-->
+      
+  
+    <!--MAIN-->
     <main>
-        <div class="Titulo">
-            <h1 class="colorTitulo">SOBRE EL SERVICIO</h1> 
-        </div> 
-        <div class="contenedorParrafos">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto, atque, soluta praesentium ipsa vero natus ex dolores ipsum, placeat sunt excepturi. Ab veritatis quis qui omnis provident? Quisquam, distinctio.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto, atque, soluta praesentium ipsa vero natus ex dolores ipsum, placeat sunt excepturi. Ab veritatis quis qui omnis provident? Quisquam, distinctio.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto, atque, soluta praesentium ipsa vero natus ex dolores ipsum, placeat sunt excepturi. Ab veritatis quis qui omnis provident? Quisquam, distinctio.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto, atque, soluta praesentium ipsa vero natus ex dolores ipsum, placeat sunt excepturi. Ab veritatis quis qui omnis provident? Quisquam, distinctio.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto, atque, soluta praesentium ipsa vero natus ex dolores ipsum, placeat sunt excepturi. Ab veritatis quis qui omnis provident? Quisquam, distinctio.</p>
+        <div class="container container-fluid">
+            <div class="row container-fluid">
+                <div class="col-12">
+                    <div class="Titulo">
+                        <h1 class="colorTitulo text-center">SOBRE EL SERVICIO</h1> 
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 justify-content">
+                    <p>¡Bienvenido al servicio de readaptación física! En este sitio web, nuestro enfoque está en brindar educación física adaptada para todas las personas que buscan mejorar su bienestar físico. Estoy aquí para ayudarlo a alcanzar sus 
+                    objetivos de salud y fitness, sin importar cuál sea su nivel de condición física actual.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-5 mx-auto">
+                    <div class="card mb-4 card-shadow">
+                        <img class="card-img-top card-img-top-proportionate" src="./assets/img/check-mark.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-5 mx-auto">
+                    <div class="card mb-4 card-shadow">
+                        <img class="card-img-top card-img-top-proportionate" src="./assets/img/check-mark.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-5 mx-auto">
+                    <div class="card mb-4 card-shadow">
+                        <img class="card-img-top card-img-top-proportionate" src="./assets/img/check-mark.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-5 mx-auto">
+                    <div class="card mb-4 card-shadow">
+                        <img class="card-img-top card-img-top-proportionate" src="./assets/img/check-mark.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
-        <div class="boxs row justify-content-around align-items-center">
-            <div class="box-i col-1 p-3">
-                <img class="img-fluid" src="./assets/img/check-mark.png" alt="">
-            </div>
-            <div class="box col-5">
-                <p class="box-p">Lorem ipsum dolor sit.</p>
-            </div>
-            <div class="box-i col-1 p-3">
-                <img class="img-fluid" src="./assets/img/check-mark.png" alt="">
-            </div>
-            <div class="box col-5">
-                <p class="box-p">Lorem ipsum dolor sit.</p>
-            </div>
-             <div class="box-i col-1 p-3">
-                <img class="img-fluid" src="./assets/img/check-mark.png" alt="">
-            </div>
-            <div class="box col-5">
-                <p class="box-p">Lorem ipsum dolor sit.</p>
-            </div> 
-            <div class="box-i col-1 p-3">
-                <img class="img-fluid" src="./assets/img/check-mark.png" alt="">
-            </div>
-            <div class="box col-5">
-                <p class="box-p">Lorem ipsum dolor sit.</p>
-            </div>
-            
-        </div>
-        <div>
-            <img src="./assets/img/weights-exercise-weightlifter-strong-athletic (1).jpg" class="d-block w-100" alt="...">
-        </div>
-             
-    </main>
+
     <!--ASIDE-->
     <aside></aside>
+
     <!--FOOTER-->
     <footer>
         <div class="pie">
-            <h3 class="pieText">KEF® - Todos los derechos reservados.<i class="fa-brands fa-instagram"></i></h3>
+            <h3 class="pieText">KEF® - Todos los derechos reservados.
+                <a href="https://www.instagram.com/kef.lic.pereyra.jessica/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </h3>
         </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
