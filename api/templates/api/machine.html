@@ -1,7 +1,0 @@
-<h3>{{ machine.name }}</h3>
-<h5>Modules</h5>
-<ul>
-    {% for module in machine.modules.all %}
-        <li><a href="{% url 'module-detail' module.id %}">{{ module.name }}</a></li>
-    {% endfor %}
-</ul>

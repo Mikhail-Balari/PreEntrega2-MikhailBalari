@@ -1,9 +1,0 @@
-<ul>
-    {% for machine in machines %}
-        <li>
-            <a href="{% url 'machine-detail' machine.id %}">
-            {{machine.name}}
-            </a>
-        </li>
-    {% endfor %}
-</ul>
