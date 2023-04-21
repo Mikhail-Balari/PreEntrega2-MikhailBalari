@@ -44,12 +44,7 @@ header img {
     background-size: cover;
     filter: blur(5px);
     z-index: -1;
-  }
-  
-/****** HEADER KEF******/
-
-/****** HEADER SOBRE-MI******/
-
+}
 
 /****** MAIN INDEX ******/
 
@@ -105,7 +100,7 @@ header img {
 /****** HEADER EFA******/
 
 .header-efa {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
   
 .header-background-efa {
@@ -146,11 +141,44 @@ header img {
   
 
 /****** MAIN EFA ******/
+
 .container-efa {
-    margin-bottom: 50px;
-  }
+    background: #ffffff;
+    padding: 50px 0;
+    
+}
+
+.card-efa {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, black, #BF9004);
+    box-shadow: 0 20px 50px rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-body-efa {
+    padding: 40px;
+}
+
+.card-tittle-efa {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.card-text-efa {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+  
+/****** HEADER KEF******/
 
 /****** MAIN KEF ******/
+
+/****** HEADER SOBRE-MI******/
 
 /****** MAIN SOBRE-MI ******/
 
@@ -178,6 +206,16 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.btn-primary-contacto {
+    color:white;
+    background-color:#000000;
+}
+  
+.btn-primary-contacto:hover {
+    color:white;
+    background-color:#a07a08;
 }
 
 /***** FOOTER ******/
