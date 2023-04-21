@@ -15,6 +15,35 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap'); </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Script Content Javascript-->
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+      // obtenemos las imágenes y el elemento que contiene el contenido
+        const images = document.querySelectorAll('.seccion-img img');
+        const content = document.querySelector('.seccion-kef');
+        const defaultContent = {
+            title: 'Servicios de Kef',
+            description: 'Ofrecemos una amplia variedad de servicios de kinesiología para ayudarte a recuperar y mejorar tu calidad de vida. Contamos con un equipo de profesionales altamente capacitados y tecnología de última generación para brindarte la mejor atención posible.'
+        };
+
+        // Mostramos el contenido predeterminado en el inicio
+        content.querySelector('h1').textContent = defaultContent.title;
+        content.querySelector('p').textContent = defaultContent.description;
+
+
+            //agregamos un evento mouseover a cada imagen
+            images.forEach(img => {
+                img.addEventListener('mouseover', () => {
+                // obtenemos el valor del atributo data-content de la imagen seleccionada
+                const imgContent = img.dataset.content;
+                const imgContentP = img.dataset.contentP;
+                // actualizamos el contenido del h1 y p con el contenido correspondiente
+                content.querySelector('h1').textContent = imgContent;
+                content.querySelector('p').textContent = imgContentP;
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <!--NAV-->
@@ -38,13 +67,22 @@
     </nav>
 
     <!--HEADER-->
-    <header>
-
+    <header class="header-kef">
+      <div class="div-kef">
+        <section class="seccion-img">
+          <img src="../assets/img/10.png" alt="imagen 1" data-content="KINESIOLOGÍA" data-content-p="La kinesiología es la ciencia que se encarga del estudio y tratamiento del movimiento corporal. En mi centro, cuento con las herramientas necesarias para ayudarte a recuperar tu movilidad y funcionalidad después de una lesión o cirugía. Utilizando técnicas efectivas para mejorar tu calidad de vida y lograr una recuperación óptima. Confía en KEF para ayudarte en tu proceso de rehabilitación.">
+          <img src="../assets/img/11.png" alt="imagen 2" data-content="READAPTACIÓN FÍSICA" data-content-p="Si has sufrido una lesión que te ha impedido realizar tus actividades físicas habituales, no te preocupes. En mi servicio de readaptación física podremos trabajar a la par para ayudarte a recuperarte y volver a tu vida cotidiana. Te ayudaré a superar cualquier obstáculo y a alcanzar tus objetivos físicos con seguridad y eficacia">
+          <img src="../assets/img/12.png" alt="imagen 3" data-content="PREPARACIÓN FÍSICA" data-content-p="La preparación física es clave para alcanzar un rendimiento óptimo en cualquier deporte o actividad física. En KEF realizo la planificación de tu preparación física personalizada, adaptada a tus necesidades y objetivos. Cuento con la experiencia y los conocimientos para el diseño de programas de entrenamiento efectivos y seguros, que te ayudarán a alcanzar tus metas en poco tiempo. No importa si eres un deportista profesional o simplemente quieres mejorar tu condición física, ¡estoy aquí para ayudarte!">
+        </section>
+      </div>
     </header>
 
     <!--MAIN-->
-    <main>
-
+    <main class="main-kef">
+        <section class="seccion-kef">
+            <h1></h1>
+            <p></p>
+          </section>
     </main>
 
     <!--FOOTER-->
