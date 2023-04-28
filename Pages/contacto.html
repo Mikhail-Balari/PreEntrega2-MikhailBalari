@@ -40,21 +40,25 @@
     <main class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-6">
-          <div class="card card-shadow" style="background-color:#536063;">
+          <div class="card card-shadow">
             <div class="card-body">
               <h5 class="card-title-contacto">Contacto</h5>
               <form>
                 <div class="mb-3">
-                  <label for="nombre" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" name="nombre" required>
+                  <label for="nombre" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control" placeholder="ingrese su nombre y apellido" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Telefono</label>
+                  <input type="text" class="form-control" id="telefono" placeholder="ingrese su número" name="telefono" required>
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
+                  <input type="email" class="form-control" placeholder="ejemplo@gmail.com" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
                   <label for="mensaje" class="form-label">Mensaje</label>
-                  <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+                  <textarea class="form-control" placeholder="Deje su consulta aquí" id="mensaje" name="mensaje" rows="3" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary-contacto">Enviar</button>
               </form>

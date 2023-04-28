@@ -21,16 +21,16 @@
       // obtenemos las imágenes y el elemento que contiene el contenido
         const images = document.querySelectorAll('.seccion-img img');
         const content = document.querySelector('.seccion-kef');
+
         const defaultContent = {
-            title: 'Servicios de Kef',
+            title: 'SERVICIOS DE KEF',
             description: 'Ofrecemos una amplia variedad de servicios de kinesiología para ayudarte a recuperar y mejorar tu calidad de vida. Contamos con un equipo de profesionales altamente capacitados y tecnología de última generación para brindarte la mejor atención posible.'
         };
 
         // Mostramos el contenido predeterminado en el inicio
         content.querySelector('h1').textContent = defaultContent.title;
         content.querySelector('p').textContent = defaultContent.description;
-
-
+        
             //agregamos un evento mouseover a cada imagen
             images.forEach(img => {
                 img.addEventListener('mouseover', () => {
