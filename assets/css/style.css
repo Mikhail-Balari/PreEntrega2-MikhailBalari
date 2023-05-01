@@ -134,12 +134,14 @@ header img {
     text-align: center;
     color: #ffffff;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .efa-p {
     text-align: center;
     color: #ffffff;
     font-size: 18px;
+    margin-bottom: 50px;
 }
   
 @media (min-width: 768px) {
@@ -255,7 +257,7 @@ header img {
 }
 
 .seccion-kef h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -280,14 +282,14 @@ header img {
 }
   
 .header-text h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 50px;
     font-style: oblique;
 }
   
 .header-text p {
     font-size: 18px;
-    line-height: 1.9;
+    line-height: 1.5;
     text-align: justify;
     margin-right: 13px;
     margin-left: 13px;
@@ -311,6 +313,7 @@ header img {
   
 
 /****** MAIN SOBRE-MI ******/
+
 
 /****** MAIN CONTACTO ******/
 .card {
@@ -353,21 +356,57 @@ header img {
 
 /***** FOOTER ******/
 
-.pie{
-    background-color:black;
-    line-height: 10px;
-    padding: 5px;
+.footer-one {
+    background-color: #000000;
 }
 
-div > h3 > a > i {
-    padding-left: 10px;
-    color:#BF9004
+.footer-h5{
+    color: #fff;
 }
 
-.pieText{
-    text-align: center;
-    color:#BF9004;
-    font-family: 'Contrail One', cursive;
-    font-size: 20px;
-    padding-top: 7px;
+.direccion{
+    color: #BF9004;
+}
+
+.footer-p1{
+    color: #ffffff;
+}
+
+.telefono{
+    color: #BF9004;
+}
+
+.footer-p2{
+    color: #ffffff;
+}
+
+.fa-phone{
+    margin-right: 5px;
+}
+
+.fa-map-marker-alt{
+    margin-right: 5px;
+}
+
+.mr-instagram {
+    margin: 15px;
+}
+  
+.mr-linkedin {
+    margin: 15px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: #BF9004;
+}
+
+.list-unstyled li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    font-style: italic;
+}
+  
+.bg-secondary{
+    color: #BF9004;
 }

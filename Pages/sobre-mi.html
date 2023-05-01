@@ -15,6 +15,8 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap'); </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
+    <!--AOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 </head>
 <body>
     <!--NAV-->
@@ -40,7 +42,7 @@
     <header class="header">
         <div class="container-fluid header-background">
             <div class="row">
-                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="header-text">
                         <h1 class="text-uppercase">¿QUIEN SOY?</h1>
                         <p class="lead-sobre">"¡Bienvenidos! Soy Jessica Pereyra, Licenciada en Kinesiología y Profesora de Educación Física con una pasión por ayudar a las personas a mejorar su salud física y calidad de vida. A lo largo de mi carrera, he adquirido una amplia experiencia en Educación Física Adaptada, enfocada en la atención personalizada de cada individuo.<br>
@@ -52,7 +54,7 @@
                         <br>Si buscas una profesional comprometida con tu salud física y bienestar, no dudes en contactarme. ¡Estoy aquí para ayudarte a lograr tus objetivos y alcanzar tu mejor versión!".</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 header-image d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-6 header-image d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="../assets/img/9.png" class="img-fluid" alt="Imagen de portada">
                 </div>
             </div>
@@ -62,27 +64,27 @@
     <!--MAIN-->
     <main class="container py-5">
         <div class="row">
-            <div class="col-12">
-                <h2 class="text-center mb-5"><em>MI EXPERIENCIA</em></h2>
-            </div>
-            <div class="col-12 col-md-6">
-                <h3 class="text-uppercase">Equipo Mario Disanto</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="col-12 col-md-6">
-                <h3 class="text-uppercase">Experiencia 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="col-12 col-md-6">
-                <h3 class="text-uppercase">Experiencia 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="col-12 col-md-6">
-                <h3 class="text-uppercase">Experiencia 4</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
+          <div class="col-12">
+            <h2 class="text-center mb-5" data-aos="fade"><em>MI EXPERIENCIA</em></h2>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-right">
+            <h3 class="tittle-experience">Equipo Mario Di Santo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <h3 class="tittle-experience">CIK</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-right">
+            <h3 class="tittle-experience">Comisión de Carrera UnViMe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <h3 class="tittle-experience">Club Jorge Newbery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
-    </main>
+      </main>      
 
     <!--FOOTER-->
     <footer>
@@ -97,6 +99,9 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
