@@ -332,6 +332,10 @@ header img {
     font-size: 30px;
 } 
 
+.card-formulario {
+    margin-bottom: 100px;
+}
+
 .form-label {
     color: white;
 
@@ -342,7 +346,22 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 115px;
 }
+
+@media (max-width: 767px) {
+    .row.d-flex.align-items-start {
+      flex-direction: column;
+    }
+  
+    .col-md-1 {
+      display: none; /* Oculto la columna vacía en dispositivos móviles */
+    }
+  
+    .map-container {
+      margin-top: 0; /* Elimino el margen superior en dispositivos móviles */
+    }
+  }
 
 .btn-primary-contacto {
     color:white;
