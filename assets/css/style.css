@@ -408,11 +408,20 @@ header img {
 }
 
 .mr-instagram {
-    margin: 15px;
+    margin: 10px;
+    color: #BF9004;
+    font-size: 20px;
 }
   
 .mr-linkedin {
-    margin: 15px;
+    margin: 10px;
+    color: #BF9004;
+    font-size: 20px;
+}
+
+.mr-instagram:hover,
+.mr-linkedin:hover {
+  color: #ffffff;
 }
 
 .list-unstyled li a {
@@ -428,4 +437,12 @@ header img {
   
 .bg-secondary{
     color: #BF9004;
+}
+
+.reg{
+    color: #000000;
+}
+
+.reg em{
+    color: #ffffff;
 }
