@@ -409,18 +409,33 @@ header img {
 
 .mr-instagram {
     margin: 10px;
+    margin-left: 36px;
     color: #BF9004;
-    font-size: 20px;
+    font-size: 25px;
 }
   
 .mr-linkedin {
     margin: 10px;
     color: #BF9004;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.mr-telegram {
+    margin: 10px;
+    color: #BF9004;
+    font-size: 25px;
+}
+
+.mr-whatsapp {
+    margin: 10px;
+    color: #BF9004;
+    font-size: 25px;
 }
 
 .mr-instagram:hover,
-.mr-linkedin:hover {
+.mr-linkedin:hover,
+.mr-telegram:hover,
+.mr-whatsapp:hover {
   color: #ffffff;
 }
 
