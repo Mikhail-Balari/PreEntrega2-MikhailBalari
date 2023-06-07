@@ -449,14 +449,15 @@ header img {
     font-style: italic;
 }
   
-.bg-secondary{
-    color: #BF9004;
+.sub-footer{
+    background-color: #000000;
 }
 
 .reg{
-    color: #000000;
+    color: #ffffff;
 }
 
 .reg em{
-    color: #ffffff;
+    color:#BF9004;
 }
+
